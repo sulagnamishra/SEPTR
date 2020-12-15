@@ -1,0 +1,3 @@
+name	unit	description
+phaseEffect	-	modifies conjugation constant depending on growth phase of cells
+mu	1/h	growth rate as function of temperature;  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC216584/pdf/jbacter00260-0019.pdf

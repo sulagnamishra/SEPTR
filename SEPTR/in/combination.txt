@@ -1,0 +1,9 @@
+considercost,subsettemp
+TRUE,NULL
+TRUE,20
+TRUE,30
+TRUE,37
+FALSE,NULL
+FALSE,20
+FALSE,30
+FALSE,37

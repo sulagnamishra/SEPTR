@@ -1,0 +1,12 @@
+﻿name	unit	description
+b	-	"growth rate of R strain, temperature-dependent"
+#cost	1/h	"plasmid cost, applies to donor and transconjugant"
+logGamma	log10(ml/cells/hour)	log10 of plasmid transfer rate
+theta	°C	temperature coefficient for plasmid transfer
+temp	°C	temperature
+#lg_temp_opt	log10(ml/cells/hour)	log10 of plasmid transfer rate at optimum temperature
+#temp_opt	°C	optimum temperature for plasmid transfer
+#phase	-	"encodes the growth phase (-1: early, 0: interm., 1: late)"
+# multEarly	-	"multiplier for logGamma, early phase"
+# multInter	-	"multiplier for logGamma, intermediate phase"
+# multLate	-	"multiplier for logGamma, late phase"

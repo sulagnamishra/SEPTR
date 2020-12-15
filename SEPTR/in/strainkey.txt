@@ -1,0 +1,3 @@
+nal100 = Recipient
+Tet = Donor
+str/tet/nal = Transconjugant

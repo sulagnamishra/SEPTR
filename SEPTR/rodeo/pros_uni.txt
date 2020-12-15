@@ -1,0 +1,8 @@
+name	unit	description	expression
+growthD	1/h	growth of D	"mu(temp, 4, b) * (1-cost) * D"
+growthR	1/h	growth of R	"mu(temp, 4, b) * R"
+growthT	1/h	growth of T	"mu(temp, 4, b) * (1-cost) * T"
+conjug	cells/ml/h	conjugation	"10**(logGamma) * R * (D + T)"
+#conjug	cells/ml/h	conjugation	"10**(lg_temp_opt/(theta*(temp-37)**2+1)) * R * (D + T)"
+#conjug	cells/ml/h	conjugation	"10**logGamma * (lg_temp_opt/(theta*(temp-37)**2+1)) * R * (D + T)"
+# conjug	cells/ml/h	conjugation	"10**logGamma * (theta**(temp-37)) * R * (D + T) * phaseEffect(phase, multEarly, multInter, multLate) "

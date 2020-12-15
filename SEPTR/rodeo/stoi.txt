@@ -1,0 +1,5 @@
+stoich	D	R	T
+growthD	1	0	0
+growthR	0	1	0
+growthT	0	0	1
+conjug	0	-1	1
